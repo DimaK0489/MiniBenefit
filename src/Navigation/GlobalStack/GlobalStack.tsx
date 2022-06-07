@@ -17,6 +17,11 @@ export const GlobalStack = () => {
           name={STACK.CATEGORY}
           component={screens[SCREEN.CATEGORY]}
         />
+        <Stack.Screen
+          name={SCREEN.NOVELTIES}
+          component={screens[SCREEN.NOVELTIES]}
+        />
+        <Stack.Screen name={SCREEN.STOCKS} component={screens[SCREEN.STOCKS]} />
       </Stack.Navigator>
     </NavigationContainer>
   );
