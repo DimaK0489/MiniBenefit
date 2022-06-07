@@ -6,6 +6,7 @@ import Sale from '../../Screens/Sale';
 import Delivery from '../../Screens/Delivery';
 import Entertainment from '../../Screens/Entertainment';
 import {Novelties} from '../../Screens/Novelties/Novelties';
+import { InfoBenefit } from "../../Screens/InfoBenefit/InfoBenefit";
 
 export enum SCREEN {
   CATEGORY = 'Category',
@@ -16,6 +17,7 @@ export enum SCREEN {
   DELIVERY = 'Delivery',
   ENTERTAINMENT = 'Entertainment',
   NOVELTIES = 'Novelties',
+  INFO_BENEFIT = 'InfoBenefit',
 }
 
 export const screens = {
@@ -27,4 +29,5 @@ export const screens = {
   [SCREEN.DELIVERY]: Delivery,
   [SCREEN.ENTERTAINMENT]: Entertainment,
   [SCREEN.NOVELTIES]: Novelties,
+  [SCREEN.INFO_BENEFIT]: InfoBenefit,
 };

@@ -4,8 +4,8 @@ import {ScrollView} from 'react-native';
 import styles from './styles';
 import {useNavigation} from '@react-navigation/native';
 import {SafeAreaView} from 'react-native-safe-area-context';
-import Category from '../Category';
 import {HeaderActions} from '../../Components/HeaderActions/HeaderActions';
+import Category from '../Category';
 
 const Home = () => {
   const navigation = useNavigation();
@@ -21,13 +21,7 @@ const Home = () => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <ScrollView>
-        <Category title={'Новинки'} />
-        <Category title={'Акции'} />
-        <Category title={'Распродажи'} />
-        <Category title={'Доставка'} />
-        <Category title={'Развлечения'} />
-      </ScrollView>
+      <Category />
     </SafeAreaView>
   );
 };

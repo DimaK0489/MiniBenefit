@@ -17,7 +17,6 @@ export const HeaderActions = () => {
         Все Скидки
       </Button>
       <Button
-        mode={'contained'}
         onPress={() => navigation.navigate(SCREEN.NOVELTIES)}>
         Новинки
       </Button>
