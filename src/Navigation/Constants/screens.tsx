@@ -6,7 +6,7 @@ import Sale from '../../Screens/Sale';
 import Delivery from '../../Screens/Delivery';
 import Entertainment from '../../Screens/Entertainment';
 import {Novelties} from '../../Screens/Novelties/Novelties';
-import { InfoBenefit } from "../../Screens/InfoBenefit/InfoBenefit";
+import {InfoBenefit} from '../../Screens/InfoBenefit/InfoBenefit';
 
 export enum SCREEN {
   CATEGORY = 'Category',
